@@ -30,6 +30,9 @@ public class Calculator {
 
 	public static String NAME = "Simple Calculator";
 
+	/**
+	 * @param textProvider
+	 */
 	public Calculator(TextProvider textProvider) {
 		this.textProvider = textProvider;
 		setupDefaultOperations();
